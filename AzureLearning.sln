@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compute", "Compute", "{8C69
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearning.WebApi", "Compute\AzureLearning.WebApi\AzureLearning.WebApi.csproj", "{45678328-FF94-4BDC-AAA5-A22A70D77AC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearning.AzFunctions", "Compute\AzureLearning.AzFunctions\AzureLearning.AzFunctions.csproj", "{F58A694B-3A10-4C49-A099-022FB012E78B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{45678328-FF94-4BDC-AAA5-A22A70D77AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45678328-FF94-4BDC-AAA5-A22A70D77AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45678328-FF94-4BDC-AAA5-A22A70D77AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58A694B-3A10-4C49-A099-022FB012E78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58A694B-3A10-4C49-A099-022FB012E78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58A694B-3A10-4C49-A099-022FB012E78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58A694B-3A10-4C49-A099-022FB012E78B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{45678328-FF94-4BDC-AAA5-A22A70D77AC2} = {8C69D423-5456-4336-AF53-BB7F37DB318F}
+		{F58A694B-3A10-4C49-A099-022FB012E78B} = {8C69D423-5456-4336-AF53-BB7F37DB318F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A9FA3E8-E94F-4788-A53B-653BE248B12A}
