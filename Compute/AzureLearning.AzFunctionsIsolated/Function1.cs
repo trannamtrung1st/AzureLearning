@@ -18,7 +18,7 @@ namespace AzureLearning.AzFunctionsIsolated
             MyService myService)
         {
             _logger = loggerFactory.CreateLogger<Function1>();
-            Author = configuration["Author"];
+            Author = configuration["Author:Name"];
             _myService = myService;
         }
 

@@ -10,7 +10,8 @@ var host = new HostBuilder()
     })
     .ConfigureAppConfiguration((config) =>
     {
-        config.AddJsonFile("appsettings.json", optional: true);
+        config.AddJsonFile("appsettings.json", optional: false)
+            .AddJsonFile("appsettings.Production.json", optional: false);
     })
     .Build();
 
