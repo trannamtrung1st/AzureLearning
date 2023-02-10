@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearning", "AzureLearning\AzureLearning.csproj", "{2EE2C5D4-E9FC-4C8C-AA9A-859B4D3869F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearning", "AzureLearning\AzureLearning.csproj", "{2EE2C5D4-E9FC-4C8C-AA9A-859B4D3869F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compute", "Compute", "{8C69D423-5456-4336-AF53-BB7F37DB318F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearning.WebApi", "Compute\AzureLearning.WebApi\AzureLearning.WebApi.csproj", "{45678328-FF94-4BDC-AAA5-A22A70D77AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearning.WebApi", "Compute\AzureLearning.WebApi\AzureLearning.WebApi.csproj", "{45678328-FF94-4BDC-AAA5-A22A70D77AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLearning.AzFunctions", "Compute\AzureLearning.AzFunctions\AzureLearning.AzFunctions.csproj", "{F58A694B-3A10-4C49-A099-022FB012E78B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearning.AzFunctions", "Compute\AzureLearning.AzFunctions\AzureLearning.AzFunctions.csproj", "{F58A694B-3A10-4C49-A099-022FB012E78B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureLearning.AzFunctionsIsolated", "Compute\AzureLearning.AzFunctionsIsolated\AzureLearning.AzFunctionsIsolated.csproj", "{C8BA92B4-119D-4153-8EFB-F32B990245EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{F58A694B-3A10-4C49-A099-022FB012E78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F58A694B-3A10-4C49-A099-022FB012E78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F58A694B-3A10-4C49-A099-022FB012E78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BA92B4-119D-4153-8EFB-F32B990245EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BA92B4-119D-4153-8EFB-F32B990245EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BA92B4-119D-4153-8EFB-F32B990245EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BA92B4-119D-4153-8EFB-F32B990245EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{45678328-FF94-4BDC-AAA5-A22A70D77AC2} = {8C69D423-5456-4336-AF53-BB7F37DB318F}
 		{F58A694B-3A10-4C49-A099-022FB012E78B} = {8C69D423-5456-4336-AF53-BB7F37DB318F}
+		{C8BA92B4-119D-4153-8EFB-F32B990245EE} = {8C69D423-5456-4336-AF53-BB7F37DB318F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A9FA3E8-E94F-4788-A53B-653BE248B12A}
